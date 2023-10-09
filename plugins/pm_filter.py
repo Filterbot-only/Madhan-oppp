@@ -76,8 +76,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>𝐇𝐞𝐲 {user} 😍 ,\n\n𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐆𝐞𝐭 𝐌𝐨𝐯𝐢𝐞𝐬 𝐅𝐫𝐨𝐦 𝐇𝐞𝐫𝐞. 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐢𝐭 𝐈𝐧 𝐎𝐮𝐫 <a href='https://t.me/SAM_DUB_LEEZZA'>𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩</a> 𝐎𝐫 𝐂𝐥𝐢𝐜𝐤 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞 𝐁𝐮𝐭𝐭𝐨𝐧 𝐁𝐞𝐥𝐨𝐰 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞 ", url=f"telegram.me/SAM_DUB_LEEZZa")]])
+         text=f"<b>𝐇𝐞𝐲 buddy 😘 {user} 😍 ,\n\n𝐘𝐨𝐮 𝐂𝐚𝐧'𝐭 𝐆𝐞𝐭 𝐌𝐨𝐯𝐢𝐞𝐬 𝐅𝐫𝐨𝐦 𝐇𝐞𝐫𝐞. 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐢𝐭 𝐈𝐧 𝐎𝐮𝐫 <a href='https://t.me/+tPcOATDcE_cxMzZl'>❤𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩❤</a> 𝐎𝐫 𝐂𝐥𝐢𝐜𝐤 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞 𝐁𝐮𝐭𝐭𝐨𝐧 𝐁𝐞𝐥𝐨𝐰 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐇𝐞𝐫𝐞 ", url=f"https://t.me/+tPcOATDcE_cxMzZl")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -126,27 +126,27 @@ async def next_page(bot, query):
 
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'🔰𝐒𝐞𝐥𝐞𝐜𝐭✅', 'select'),
-                InlineKeyboardButton("🔰𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬✅", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("🔰𝐒𝐞𝐚𝐬𝐨𝐧𝐬✅",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'🔰𝚂𝚎𝚕𝚎𝚌𝚝✅', 'select'),
+                InlineKeyboardButton("🔰𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜✅", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("🔰𝚂𝚎𝚊𝚜𝚘𝚗✅",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔰𝐒𝐭𝐚𝐫𝐭 𝐁𝐨𝐭♻️", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("🔰𝐒𝐞𝐧𝐝 𝐀𝐥𝐥♻️", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🔰𝚂𝚝𝚊𝚛𝚝♻️", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🔰𝚂𝚎𝚗𝚝 𝙰𝚕𝚕♻️", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'🔰𝐒𝐞𝐥𝐞𝐜𝐭✅', 'select'),
-                InlineKeyboardButton("🔰𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬✅", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("🔰𝐒𝐞𝐚𝐬𝐨𝐧𝐬✅",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'🔰𝚂𝚎𝚕𝚎𝚌𝚝✅', 'select'),
+                InlineKeyboardButton("🔰𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜✅", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("🔰𝚂𝚎𝚊𝚜𝚘𝚗✅",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔰𝐒𝐭𝐚𝐫𝐭 𝐁𝐨𝐭♻️", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("🔰𝐒𝐞𝐧𝐝 𝐀𝐥𝐥♻️", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🔰𝚂𝚝𝚊𝚛𝚝♻️", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🔰𝚂𝚎𝚗𝚝 𝙰𝚕𝚕♻️", callback_data=f"sendfiles#{key}")
         ])
     try:
         if settings['max_btn']:
@@ -300,7 +300,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
         0,
         [
             InlineKeyboardButton(
-                text="🔰 𝐒𝐞𝐥𝐞𝐜𝐭 𝐘𝐨𝐮𝐫 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 🔰", callback_data="ident"
+                text="🔰 Select Your Language 🔰", callback_data="ident"
             )
         ],
     )
@@ -355,27 +355,27 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'🔰𝐒𝐞𝐥𝐞𝐜𝐭✅', 'select'),
-                InlineKeyboardButton("🔰𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬✅", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("🔰𝐒𝐞𝐚𝐬𝐨𝐧𝐬✅",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'🔰𝚂𝚎𝚕𝚎𝚌𝚝✅', 'select'),
+                InlineKeyboardButton("🔰𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜✅", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("🔰𝚂𝚎𝚊𝚜𝚘𝚗✅",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔰𝐒𝐭𝐚𝐫𝐭 𝐁𝐨𝐭♻️", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("🔰𝐒𝐞𝐧𝐝 𝐀𝐥𝐥♻️", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🔰𝚂𝚝𝚊𝚛𝚝♻️", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🔰𝚂𝚎𝚗𝚝 𝙰𝚕𝚕♻️", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'🔰𝐒𝐞𝐥𝐞𝐜𝐭✅', 'select'),
-                InlineKeyboardButton("🔰𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬✅", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("🔰𝐒𝐞𝐚𝐬𝐨𝐧𝐬✅",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'🔰𝚂𝚎𝚕𝚎𝚌𝚝✅', 'select'),
+                InlineKeyboardButton("🔰𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜✅", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("🔰𝚂𝚎𝚊𝚜𝚘𝚗✅",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🔰𝐒𝐭𝐚𝐫𝐭 𝐁𝐨𝐭♻️", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("🔰𝐒𝐞𝐧𝐝 𝐀𝐥𝐥♻️", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🔰𝚂𝚝𝚊𝚛𝚝♻️", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🔰𝚂𝚎𝚗𝚝 𝙰𝚕𝚕♻️", callback_data=f"sendfiles#{key}")
         ])
 
     if offset != "":
@@ -540,16 +540,16 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             for file in files
         ]
         btn.insert(0, [
-            InlineKeyboardButton("🔰𝐒𝐞𝐧𝐝 𝐀𝐥𝐥🔰", callback_data=f"sendfiles#{key}"),
-            InlineKeyboardButton("🔰𝐒𝐞𝐥𝐞𝐜𝐭 𝐀𝐠𝐚𝐢𝐧🔰", callback_data=f"seasons#{key}")
+            InlineKeyboardButton("🔰𝚂𝚎𝚗𝚝 𝙰𝚕𝚕🔰", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("🔰𝚂𝚎𝚗𝚝 𝙰𝚕𝚕🔰", callback_data=f"seasons#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'🔰𝐒𝐞𝐥𝐞𝐜𝐭✅', 'select'),
-                InlineKeyboardButton("🔰𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞𝐬✅", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("🔰𝐒𝐞𝐚𝐬𝐨𝐧𝐬✅",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'🔰𝚂𝚎𝚕𝚎𝚌𝚝✅', 'select'),
+                InlineKeyboardButton("🔰𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜✅", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("🔰𝚂𝚎𝚊𝚜𝚘𝚗✅",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
@@ -1171,7 +1171,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=link.invite_link),
                  InlineKeyboardButton("𝐕𝐢𝐞𝐰 𝐒𝐭𝐚𝐭𝐮𝐬", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="t.me/SAM_DUB_LEZHa")
+                 InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+5zdnXfOqEEwxNjQ1")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1196,7 +1196,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=link.invite_link),
                  InlineKeyboardButton("𝐕𝐢𝐞𝐰 𝐒𝐭𝐚𝐭𝐮𝐬", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/SAM_DUB_LEEZZA")
+                 InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+5zdnXfOqEEwxNjQ1")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1249,13 +1249,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='t.me/SAM_DUB_LEZHa'),
-                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/SAM_DUB_LEEZZA')
+                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/+6jgEtTUwjGwyMWM1'),
+                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+5zdnXfOqEEwxNjQ1')
                 ],[
                     InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url='t.me/SAM_DUB_LEZHa')
+                    InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url='https://t.me/Qtmve_linkzZz')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1333,7 +1333,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/SAM_DUB_LEEZZA'),
+            InlineKeyboardButton('❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+5zdnXfOqEEwxNjQ1'),
             InlineKeyboardButton('☠️ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ☠️', callback_data='source')
         ],[
             InlineKeyboardButton('♠𝐇𝐨𝐦𝐞 𝐏𝐚𝐠𝐞🌿', callback_data='start'),
@@ -1429,7 +1429,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('❄ 𝐁𝐚𝐜𝐤𝐰𝐚𝐫𝐝 ❄', callback_data='help'),
-            InlineKeyboardButton('☔𝐀𝐝𝐦𝐢𝐧🌎', callback_data='help')
+            InlineKeyboardButton('☔𝐀𝐝𝐦𝐢𝐧🌎', callback_data='admin')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1662,7 +1662,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m=await message.reply_text(f"♻️ 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 𝐅𝐨𝐫 ♻️'{search}' 🧐🤹‍♂️🎬</b></b>")
+        m=await message.reply_text(f"𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 𝐅𝐨𝐫 🔍...'{search}' 🧐🤹‍♂️🎬</b></b>")
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
