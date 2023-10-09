@@ -1,14 +1,14 @@
 class script(object):
     START_TXT = """𝐇𝐞𝐥𝐥𝐨... {}
     
-𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/Binthu_x_robot><b>☔𝐊𝐮𝐭𝐭𝐲 𝐏𝐚𝐚𝐩𝐚♣</b></a>
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/qtmvefilrer_bot><b>🔥ＭＡＤＡＮ 🅞🅟🎋</b></a>
 
 𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬, 𝐉𝐮𝐬𝐭 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐌𝐞 𝐀𝐝𝐦𝐢𝐧.. 𝐓𝐡𝐞𝐧 𝐒𝐞𝐞 𝐌𝐲 𝐏𝐨𝐰𝐞𝐫
 
-𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 <a href=https://t.me/SMD_Owner><b>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</b></a></b>"""
+𝐌𝐚𝐤𝐞𝐫 𝐌𝐞 <a href=https://t.me/Owner_of_qtmve><b>♣𝐀𝐮𝐭𝐡𝐨𝐫🥀</b></a></b>"""
     HELP_TXT = """<b>𝐇𝐞𝐲 {} 𝐅𝐫𝐢𝐞𝐧𝐝𝐬 𝐇𝐞𝐫𝐞 𝐘𝐨𝐮𝐫 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 👇</b>"""
 
-    ABOUT_TXT = """<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/Binthu_x_robot>♣𝐊𝐮𝐭𝐭𝐲 𝐏𝐚𝐚𝐩𝐚♻️</a>
+    ABOUT_TXT = """<b>🎧 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 : <a href=https://t.me/qtmvefilrer_bot>🔥Ｍａｔｈａｎ 🅞🅟🎋</a>
 🔥 𝐀𝐫𝐭𝐢𝐬𝐭 : <a href=https://t.me/Owner_of_qtmve>🍁𝐐𝐭𝐦𝐯𝐞_𝐎𝐰𝐧𝐞𝐫☔</a>
 🍻 𝐃𝐞𝐯𝐨𝐥𝐨𝐩𝐞𝐫 : <a href=https://t.me/SMD_Owner>🎋𝐒𝐌𝐃_𝐎𝐰𝐧𝐞𝐫🦞</a>
 ✍️ 𝐆𝐫𝐚𝐝𝐮𝐚𝐭𝐞 : <a href=https://t.me/Siva_Soft>🛬𝐒𝐢𝐯𝐚🚦</a>
@@ -16,9 +16,9 @@ class script(object):
 👨‍🔧 𝐇𝐞𝐥𝐩𝐞𝐫 : <a href=https://t.me/Thavarajtj>🗽𝐓𝐡𝐚𝐯𝐚𝐫𝐚𝐣🌿</a>
 ⚜️ 𝐐𝐭𝐯𝐬𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥 : <a href=https://t.me/QTVS_BOT_X_CLOUD>🥀𝐌𝐚𝐫𝐯𝐞𝐥🎋</a></b>"""
 
-    SOURCE_TXT = """𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐧 𝐎𝐩𝐞𝐧-𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐁𝐲 @SMD_Owner
+    SOURCE_TXT = """𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞-𝐒𝐨𝐮𝐫𝐜𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐁𝐲 <a href=https://t.me/Owner_of_qtmve>🅼🅰🅳🅰🅽 🅾🅿</a>
 
-- 𝟏𝟎𝟎﹪ 𝐂𝐨𝐝𝐞𝐝 𝐁𝐲 <a href=https://t.me/SMD_Owner>🌿𝐑𝐨𝐥𝐞𝐱🦞</a>
+- 𝟏𝟎𝟎﹪ 𝐂𝐨𝐝𝐞𝐝 𝐁𝐲 <a href=https://t.me/Owner_of_qtmve>🌿𝐕𝐞𝐧𝐮𝐦𝐚 𝐔𝐧𝐠𝐚𝐥𝐮𝐤𝐮 𝐢𝐧𝐠𝐚 𝐯𝐚𝐧𝐠𝐚𝐚!🦞</a>
 
 - & 𝐑𝐞𝐩𝐨 𝐋𝐢𝐧𝐤 👇 𝐇𝐞𝐫𝐞"""
 
@@ -131,11 +131,11 @@ Nᴀᴍᴇ - {}"""
 
 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐓𝐲𝐩𝐞 🏵🎬👇
 
-𝐄𝐱𝐚𝐦𝐩𝐥𝐞💖 : 𝐔𝐧𝐜𝐡𝐚𝐫𝐭𝐞𝐝 𝐨𝐫 𝐔𝐧𝐜𝐡𝐚𝐫𝐭𝐞𝐝 𝟐𝟎𝟐𝟐 𝐨𝐫 𝐔𝐧𝐜𝐡𝐚𝐫𝐭𝐞𝐝 𝐄𝐧
+𝐄𝐱𝐚𝐦𝐩𝐥𝐞💖 : 𝐕𝐢𝐤𝐫𝐚𝐦 𝐨𝐫 𝐕𝐢𝐤𝐫𝐚𝐦 𝟐𝟎𝟐𝟐 𝐨𝐫 𝐕𝐢𝐤𝐫𝐚𝐦 𝐓𝐚𝐦𝐢𝐥
 
 𝐒𝐞𝐫𝐢𝐞𝐬 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐓𝐲𝐩𝐞 🏵🎬👇
 
-𝐄𝐱𝐚𝐦𝐩𝐥𝐞 💖 : 𝐋𝐨𝐤𝐢 𝐒𝟎𝟏 𝐨𝐫 𝐋𝐨𝐤𝐢 𝐒𝟎𝟏𝐄𝟎𝟒 𝐨𝐫 𝐋𝐮𝐜𝐢𝐟𝐞𝐫 𝐒𝟎𝟑𝐄𝟐𝟒
+𝐄𝐱𝐚𝐦𝐩𝐥𝐞 💖 : 𝐄𝐥𝐢𝐭𝐞 𝐒𝟎𝟏 𝐨𝐫 𝐄𝐥𝐢𝐭𝐞 𝐒𝟎𝟏𝐄𝟎𝟒 𝐨𝐫 𝐒𝐞𝐱 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 𝐒𝟎𝟑𝐄𝟐𝟒
 
 😡🙏🤬 𝐃𝐨𝐧'𝐭 𝐔𝐬𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 ➠ ':(!,./)</b>"""
 
@@ -157,9 +157,9 @@ Wᴀɴᴛ ᴛᴏ Kɴᴏᴡ Hᴏᴡ? Fᴏʟʟᴏᴡ Tʜᴇsᴇ Sᴛᴇᴘs:-
 
 sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 1𝟶𝟶 ᴍᴇᴍʙᴇʀs.
 
-sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://omnifly.in.net/ref/Samar>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
+sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ Aɴʏ <a href=https://tnshort.net/ref/Qtmve>Sʜᴏʀᴛᴇɴᴇʀ Wᴇʙsɪᴛᴇ</a>.
 
-sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/SMD_Dulinks/26> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
+sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/Qtmve_link/3> ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ </a>Tᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛᴇɴᴇʀ.
 
 ➣ Yᴏᴜ ᴄᴀɴ ᴄᴏɴɴᴇᴄᴛ ᴀs ᴍᴀɴʏ ɢʀᴏᴜᴘ ʏᴏᴜ ʜᴀᴠᴇ.
 
@@ -205,13 +205,13 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 <b>
 ╭─────── • ◆ • ───────╮
-🔅 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛:  <a href="https://t.me/+VEMz7vS7VtFmMDI1">♻️𝐂𝐥𝐢𝐜𝐤♻️</a>
+🔅 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛:  <a href="https://t.me/Qtmve_linkZzz">♻️𝐂𝐥𝐢𝐜𝐤♻️</a>
 ╰─────── • ◆ • ───────╯
 
 =========== • ✠ • ===========
-▫️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : @SAM_DUB_LEZHa
-▫️ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 : @SAM_DUB_LEEZZa
+🦞 𝐔𝐩𝐝𝐚𝐭𝐞 : @Qtmve_linkZzz
 =========== • ✠ • ===========</b>"""
+
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
