@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url="https://t.me/+6jgEtTUwjGwyMWM1"),
-                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url=GRP_LNK)
+                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url="https://t.me/Qtmve_linkzZz"),
+                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+tPcOATDcE_cxMzZl')
                 ],[
                     InlineKeyboardButton('🏞 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎇', url='https://t.me/Qtmve_linkzZz')
                   ]]
@@ -45,8 +45,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/+6jgEtTUwjGwyMWM1'),
-                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+5zdnXfOqEEwxNjQ1')
+                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/Qtmve_linkzZz'),
+                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+tPcOATDcE_cxMzZl')
                 ],[
                     InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
@@ -96,8 +96,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🍁𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐨𝐮𝐩🍁', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/+6jgEtTUwjGwyMWM1'),
-                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+5zdnXfOqEEwxNjQ1')
+                    InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/Qtmve_linkzZz'),
+                    InlineKeyboardButton('❄ 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🥀', url='https://t.me/+tPcOATDcE_cxMzZl')
                 ],[
                     InlineKeyboardButton('🌿𝐇𝐞𝐥𝐩🎧', callback_data='help'),
                     InlineKeyboardButton('♣𝐀𝐛𝐨𝐮𝐭🥀', callback_data='about')
@@ -154,9 +154,9 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🦞 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ❄', url=f'https://t.me/Qtmve_linkzZz'),
-                          InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/+6jgEtTUwjGwyMWM1')
+                          InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/Qtmve_linkzZz')
                        ],[
-                          InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+5zdnXfOqEEwxNjQ1")
+                          InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+tPcOATDcE_cxMzZl")
                          ]
                         ]
                     )
@@ -173,9 +173,9 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🦞 𝐀𝐮𝐭𝐡𝐨𝐫 ❄', url=f'https://t.me/{SUPPORT_CHAT}'),
-                          InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/+6jgEtTUwjGwyMWM1')
+                          InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/Qtmve_linkzZz')
                        ],[
-                          InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+5zdnXfOqEEwxNjQ1")
+                          InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+tPcOATDcE_cxMzZl")
                          ]
                         ]
                     )
@@ -330,9 +330,9 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('🦞 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ❄', url=f'https://t.me/Qtmve_linkzZz'),
-                      InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/+6jgEtTUwjGwyMWM1')
+                      InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/Qtmve_linkzZz')
                    ],[
-                      InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+5zdnXfOqEEwxNjQ1")
+                      InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+tPcOATDcE_cxMzZl")
                      ]
                     ]
                 )
@@ -392,9 +392,9 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('🦞 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ❄', url=f'https://t.me/Qtmve_linkzZz'),
-                      InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/+6jgEtTUwjGwyMWM1')
+                      InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/Qtmve_linkzZz')
                    ],[
-                      InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+5zdnXfOqEEwxNjQ1")
+                      InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+tPcOATDcE_cxMzZl")
                      ]
                     ]
                 )
@@ -452,9 +452,9 @@ async def start(client, message):
             [
              [
               InlineKeyboardButton('🦞 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ❄', url=f'https://t.me/Qtmve_linkzZz'),
-              InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/+6jgEtTUwjGwyMWM1')
+              InlineKeyboardButton('☘️ 𝐌𝐚𝐢𝐧 𝐇𝐮𝐛 🦞', url='https://t.me/Qtmve_linkzZz')
            ],[
-              InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+5zdnXfOqEEwxNjQ1")
+              InlineKeyboardButton("❄ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 🥀", url="https://t.me/+tPcOATDcE_cxMzZl")
              ]
             ]
         )
